@@ -1,0 +1,33 @@
+import java.util.Arrays;
+
+public class NoughtsAndCrosses {
+	public static void clearBoard(char[][] board) {
+		for (char[] row : board)
+			Arrays.fill(row, ' ');
+	}
+
+	public static void printBoard(char[][] board) {
+		int row = 0;
+		int oldRowNumber = 0;
+		for (int count = 0; count < board[0].length; count++) {
+			if (row < board.length) {
+				if (row == oldRowNumber) {
+				System.out.print("|" + board[row][count] + "|");
+				}
+				else {
+					System.out.print("\n|" + board[row][count] + "|");
+					oldRowNumber = row;
+				}
+				if (count == 2) {
+					row++;
+					count = 0;
+				}
+			}
+		}
+	}
+	public static void main(String[] args) {
+		char[][] board = new char[3][3];
+		clearBoard(board);
+		printBoard(board);
+	}
+}
