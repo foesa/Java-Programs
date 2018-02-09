@@ -20,9 +20,9 @@ public class DiceGameMain {
 				Dice dice1 = new Dice();
 				Dice dice2 = new Dice();
 				Dice dice3 = new Dice();
-				int firstDiceFace = dice1.roll();
-				int secondDiceFace = dice2.roll();
-				int thirdDiceFace = dice3.roll();
+				int firstDiceFace = 4 ;//dice1.roll();
+				int secondDiceFace =4 ;//dice2.roll();
+				int thirdDiceFace = 4;//dice3.roll();
 				int total = firstDiceFace + secondDiceFace + thirdDiceFace;
 				if (betType.equals("Triple") && firstDiceFace == secondDiceFace && secondDiceFace == thirdDiceFace
 						&& (firstDiceFace != 1 || firstDiceFace != 6)) {
@@ -57,7 +57,7 @@ public class DiceGameMain {
 						System.out.println("You have won "+amountWon);
 					}
 				}
-				else if(betType.equals("Low")&& total>MAX_VALUE_FOR_LOW) {
+				else if(betType.equals("Low")&& total<MAX_VALUE_FOR_LOW) {
 					if((firstDiceFace == 1)&&!(firstDiceFace == secondDiceFace && secondDiceFace == thirdDiceFace)) {
 						double amountWon = betAmount*CHANCES_FOR_FIELD;
 						Wallet.put(amountWon+betAmount);
@@ -95,10 +95,24 @@ public class DiceGameMain {
 		System.out.println("How much money would you like to have in your wallet: ");
 		if (inputScanner.hasNextInt()) {
 			initialMoneyAmount = inputScanner.nextDouble();
+			PlayerWallet.put(initialMoneyAmount);
 		}
 		while(!finished) {
+			System.out.println("What bet type would you like to place? Please enter either 'High', 'Low', 'Triple' or 'Field' or type 'exit': ");
 			
+			if (inputScanner.hasNext("exit")){
+				double difference = PlayerWallet.check()-initialMoneyAmount;
+				System.out.println("You now have " + PlayerWallet.check()+"in you wallet. You have made " + difference );
+				finished = true;
+			}
+			else if(PlayerWallet.check()==0){
+				System.out.println("You have no more money in your wallet. You have Lost");
+				finished = true;
+			}
+			else {
+				String betmade = inputScanner.next();
+				ResolveBet(betmade, PlayerWallet);
+			}
 		}
 	}
-
 }
