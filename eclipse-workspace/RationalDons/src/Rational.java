@@ -4,8 +4,8 @@ public class Rational {
 	int numerator;
 	int denominator;
 	public Rational(int topNumber, int bottomNumber) {
-		int numerator = topNumber;
-		int denominator = bottomNumber;
+		numerator = topNumber;
+		denominator = bottomNumber;
 	}
 	public Rational(int topNumber) {
 		this(topNumber,1);
@@ -30,7 +30,7 @@ public class Rational {
 	}
 	public Rational divide(Rational rationaltwo) {
 		int numerator = this.numerator*rationaltwo.denominator;
-		int denominator = this.denominator*this.numerator;
+		int denominator = this.denominator*rationaltwo.numerator;
 		Rational newRational = new Rational(numerator,denominator);
 		return newRational;
 	}
