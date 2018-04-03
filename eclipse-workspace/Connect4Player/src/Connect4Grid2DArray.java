@@ -10,18 +10,20 @@ public class Connect4Grid2DArray implements Connect4Grid {
 	}
 
 	public void emptyGrid() {
-		Arrays.fill(connect4Grid, 0);
+		for (int count = 0; count < connect4Grid.length; count++) {
+			Arrays.fill(connect4Grid[count], 0);
+		}
 	}
 
 	public boolean isValidColumn(int column) {
-		if (column < connect4Grid[0].length) {
+		if (column < connect4Grid.length) {
 			return true;
 		}
 		return false;
 	}
 
 	public boolean isColumnFull(int column) {
-		if (connect4Grid[5][column] != 0) {
+		if (connect4Grid[0][column] != 0) {
 			System.out.println("Full column");
 			return true;
 		}
@@ -32,14 +34,14 @@ public class Connect4Grid2DArray implements Connect4Grid {
 		int droppiece = player.getPlayerPiece();
 		boolean madeMove = false;
 		if (isValidColumn(column) && !isColumnFull(column)) {
+			int count = 0;
 			while (!madeMove) {
-				int count = 0;
 				if (count < 6) {
-					if (connect4Grid[count][column] == 0) {
-						connect4Grid[count][column] = droppiece;
+					if (connect4Grid[5 - count][column] == 0) {
+						connect4Grid[5 - count][column] = droppiece;
 						madeMove = true;
 						columnOflastPiece = column;
-						rowOfLastPiece = count;
+						rowOfLastPiece = 5 - count;
 					} else {
 						count++;
 					}
@@ -58,24 +60,71 @@ public class Connect4Grid2DArray implements Connect4Grid {
 					return true;
 				}
 			}
-		} else if (columnOflastPiece <= 3) {
+		}
+		if (columnOflastPiece <= 3) {
 			for (int count = 0; count < 4; count++) {
 				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece][columnOflastPiece
-						+ count]) && count == 3) {
+						+ count]) && count == 3) { 
 					return true;
 				}
 			}
-		} else if ((columnOflastPiece > 2 && rowOfLastPiece > 2) || (columnOflastPiece >= 2 && rowOfLastPiece < 3)) {
+		}
+		if (rowOfLastPiece < 3) {
 			for (int count = 0; count < 4; count++) {
 				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece
-						- count][columnOflastPiece - count]) && count == 3) {
+						+ count][columnOflastPiece]) && count == 3) {
 					return true;
 				}
 			}
-		} else if (rowOfLastPiece > 2) {
+		}
+		// diagonal down left
+		if (rowOfLastPiece <= 2 && columnOflastPiece >= 3) {
+			int numOfmatches = 0;
 			for (int count = 0; count < 4; count++) {
 				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece
-						- count][columnOflastPiece + count]) && count == 3) {
+						+ count][columnOflastPiece - count])) {
+					numOfmatches++;
+				}
+				if (numOfmatches == 3) {
+					return true;
+				}
+			}
+		}
+		// diagonal down right
+		if (rowOfLastPiece <= 2 && columnOflastPiece <= 3) {
+			int numOfmatches = 0;
+			for (int count = 0; count < 4; count++) {
+				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece
+						+ count][columnOflastPiece + count])) {
+					numOfmatches++;
+				}
+				if (numOfmatches == 3) {
+					return true;
+				}
+			}
+		}
+		// diagonal up right
+		if (rowOfLastPiece > 2 && columnOflastPiece <= 3) {
+			int numOfmatches = 0;
+			for (int count = 0; count < 4; count++) {
+				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece
+						- count][columnOflastPiece + count])) {
+					numOfmatches++;
+				}
+				if (numOfmatches == 3) {
+					return true;
+				}
+			}
+		}
+		// diagonal up left
+		if (rowOfLastPiece > 2 && columnOflastPiece >= 3) {
+			int numOfmatches = 0;
+			for (int count = 0; count < 4; count++) {
+				if ((connect4Grid[rowOfLastPiece][columnOflastPiece] == connect4Grid[rowOfLastPiece
+						- count][columnOflastPiece - count])) {
+					numOfmatches++;
+				}
+				if (numOfmatches == 3) {
 					return true;
 				}
 			}
@@ -92,4 +141,33 @@ public class Connect4Grid2DArray implements Connect4Grid {
 		return false;
 	}
 
+	public int[][] returnGrid() {
+		int[][] returnGrid = this.connect4Grid;
+		return returnGrid;
+	}
+
+	public String toString() {
+		int row = 0;
+		int oldRowNumber = 0;
+		String boardString = "";
+		for (int count = 0; count < connect4Grid[0].length; count++) {
+			if (row < connect4Grid.length) {
+				if (row == oldRowNumber) {
+					boardString += ("|" + connect4Grid[row][count] + "|");
+				} else {
+					boardString += "\n|" + connect4Grid[row][count] + "|";
+					oldRowNumber = row;
+				}
+				if (count == 6) {
+					row++;
+					count = -1;
+				}
+			}
+		}
+		return boardString;
+	}
+
+	public int winnerPiece() {
+		return connect4Grid[rowOfLastPiece][columnOflastPiece];
+	}
 }

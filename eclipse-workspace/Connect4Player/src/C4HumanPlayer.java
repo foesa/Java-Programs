@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class C4HumanPlayer extends ConnectPlayer {
-
 	public C4HumanPlayer(int piece) {
 		super(piece);
 		// TODO Auto-generated constructor stub
