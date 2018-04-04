@@ -7,7 +7,6 @@ INDEX VERSION 1.130+C:\Users\legua\SchoolWorkJava\eclipse-workspace\.metadata\.p
 3162089354.index
 364667843.index
 2000763804.index
-3276022742.index
 2589955883.index
 3947521672.index
 4204507578.index
