@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
+<<<<<<< HEAD
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_2AdUMDfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_2AdUMTfZEeiP9p_dnnnNGw" bindingContexts="_2AfKgzfZEeiP9p_dnnnNGw">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid2DArray.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid2DArray.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Grid2DArray.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Game.java&quot; tooltip=&quot;Connect4Player/src/Connect4Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ConnectPlayer.java&quot; tooltip=&quot;Connect4Player/src/ConnectPlayer.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/ConnectPlayer.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NoughtsAndCrosses.java&quot; tooltip=&quot;NoughtsAndCrosses/src/NoughtsAndCrosses.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/NoughtsAndCrosses/src/NoughtsAndCrosses.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4AiPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4AiPlayer.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/C4AiPlayer.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4HumanPlayerr.java&quot; tooltip=&quot;Connect4Player/src/C4HumanPlayerr.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/C4HumanPlayerr.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Grid.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;harnessRecords.java&quot; tooltip=&quot;HarnessThingy/src/harnessRecords.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/harnessRecords.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;harness.java&quot; tooltip=&quot;HarnessThingy/src/harness.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/harness.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Harness.java&quot; tooltip=&quot;HarnessThingy/src/Harness.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/Harness.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HarnessRecords.java&quot; tooltip=&quot;HarnessThingy/src/HarnessRecords.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/HarnessRecords.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HarnessMain.java&quot; tooltip=&quot;HarnessThingy/src/HarnessMain.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/HarnessMain.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Readthingy.java&quot; tooltip=&quot;ComputingPsuedoCode/src/Readthingy.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ComputingPsuedoCode/src/Readthingy.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PseudoCode.java&quot; tooltip=&quot;ComputingPsuedoCode/src/PseudoCode.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ComputingPsuedoCode/src/PseudoCode.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;driveYouFuck.java&quot; tooltip=&quot;HashCode/src/driveYouFuck.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HashCode/src/driveYouFuck.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+=======
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_0kR6kDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0kR6kTEJEeiJIrsr7PAxAA" bindingContexts="_0kTJ_jEJEeiJIrsr7PAxAA">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4AiPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4AiPlayer.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/C4AiPlayer.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4HumanPlayerr.java&quot; tooltip=&quot;Connect4Player/src/C4HumanPlayerr.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/C4HumanPlayerr.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ConnectPlayer.java&quot; tooltip=&quot;Connect4Player/src/ConnectPlayer.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/ConnectPlayer.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NoughtsAndCrosses.java&quot; tooltip=&quot;NoughtsAndCrosses/src/NoughtsAndCrosses.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/NoughtsAndCrosses/src/NoughtsAndCrosses.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid2DArray.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid2DArray.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Grid2DArray.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Grid.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Game.java&quot; tooltip=&quot;Connect4Player/src/Connect4Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Connect4Player/src/Connect4Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;harnessRecords.java&quot; tooltip=&quot;HarnessThingy/src/harnessRecords.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/harnessRecords.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;harness.java&quot; tooltip=&quot;HarnessThingy/src/harness.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/harness.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Harness.java&quot; tooltip=&quot;HarnessThingy/src/Harness.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/Harness.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HarnessRecords.java&quot; tooltip=&quot;HarnessThingy/src/HarnessRecords.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/HarnessRecords.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HarnessMain.java&quot; tooltip=&quot;HarnessThingy/src/HarnessMain.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HarnessThingy/src/HarnessMain.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Readthingy.java&quot; tooltip=&quot;ComputingPsuedoCode/src/Readthingy.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ComputingPsuedoCode/src/Readthingy.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PseudoCode.java&quot; tooltip=&quot;ComputingPsuedoCode/src/PseudoCode.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ComputingPsuedoCode/src/PseudoCode.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;driveYouFuck.java&quot; tooltip=&quot;HashCode/src/driveYouFuck.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HashCode/src/driveYouFuck.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+>>>>>>> parent of ce323fe... Connect4Game
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_2AdUMTfZEeiP9p_dnnnNGw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_2AdUMjfZEeiP9p_dnnnNGw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="976" height="1038">
@@ -12,9 +17,15 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1514569493857"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
+<<<<<<< HEAD
     <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUMjfZEeiP9p_dnnnNGw" selectedElement="_2AdUMzfZEeiP9p_dnnnNGw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_2AdUMzfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_2AdUUTfZEeiP9p_dnnnNGw">
         <children xsi:type="advanced:Perspective" xmi:id="_2AdUNDfZEeiP9p_dnnnNGw" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_2AdUNTfZEeiP9p_dnnnNGw" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
+=======
+    <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6kjEJEeiJIrsr7PAxAA" selectedElement="_0kR6kzEJEeiJIrsr7PAxAA" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_0kR6kzEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_0kR6lDEJEeiJIrsr7PAxAA">
+        <children xsi:type="advanced:Perspective" xmi:id="_0kR6lDEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_0kR6lTEJEeiJIrsr7PAxAA" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
+>>>>>>> parent of ce323fe... Connect4Game
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
           <tags>persp.actionSet:org.eclipse.mylyn.doc.actionSet</tags>
           <tags>persp.actionSet:org.eclipse.mylyn.tasks.ui.navigation</tags>
@@ -76,6 +87,7 @@
             <children xsi:type="basic:PartStack" xmi:id="_2AdUNjfZEeiP9p_dnnnNGw" elementId="org.eclipse.egit.ui.RepositoriesViewMStack" toBeRendered="false" containerData="2500">
               <children xsi:type="advanced:Placeholder" xmi:id="_2AdUNzfZEeiP9p_dnnnNGw" elementId="org.eclipse.egit.ui.RepositoriesView" toBeRendered="false" ref="_2AeigTfZEeiP9p_dnnnNGw"/>
             </children>
+<<<<<<< HEAD
             <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUODfZEeiP9p_dnnnNGw" containerData="7500" selectedElement="_2AdUOTfZEeiP9p_dnnnNGw" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUOTfZEeiP9p_dnnnNGw" containerData="5000" selectedElement="_2AdUQjfZEeiP9p_dnnnNGw">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUOjfZEeiP9p_dnnnNGw" containerData="7002" selectedElement="_2AdUQTfZEeiP9p_dnnnNGw" horizontal="true">
@@ -98,6 +110,36 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_2AdURzfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.console.ConsoleView" ref="_2AeiZDfZEeiP9p_dnnnNGw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_2AdUSDfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_2AeieDfZEeiP9p_dnnnNGw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_2AdUSTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_2AeieTfZEeiP9p_dnnnNGw"/>
+=======
+            <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6mDEJEeiJIrsr7PAxAA" containerData="7500" selectedElement="_0kR6mTEJEeiJIrsr7PAxAA" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6mTEJEeiJIrsr7PAxAA" containerData="5000" selectedElement="_0kR6mjEJEeiJIrsr7PAxAA">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6mjEJEeiJIrsr7PAxAA" containerData="7002" selectedElement="_0kR6oTEJEeiJIrsr7PAxAA" horizontal="true">
+                  <children xsi:type="basic:PartStack" xmi:id="_0kR6mzEJEeiJIrsr7PAxAA" elementId="left" visible="false" containerData="1531" selectedElement="_0kR6nDEJEeiJIrsr7PAxAA">
+                    <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                    <tags>Minimized</tags>
+                    <tags>MinimizedByZoom</tags>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_0kR6nDEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_0kSiZDEJEeiJIrsr7PAxAA"/>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_0kR6nTEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_0kSixTEJEeiJIrsr7PAxAA"/>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_0kR6njEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_0kSiyDEJEeiJIrsr7PAxAA"/>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_0kR6nzEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_0kSiyTEJEeiJIrsr7PAxAA"/>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_0kR6oDEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.junit.ResultView" toBeRendered="false" ref="_0kSi6zEJEeiJIrsr7PAxAA"/>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6oTEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.editorss" containerData="8469" ref="_0kSiOTEJEeiJIrsr7PAxAA">
+                    <tags>Maximized</tags>
+                  </children>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_0kR6ojEJEeiJIrsr7PAxAA" elementId="bottom" visible="false" containerData="1298" selectedElement="_0kR6pzEJEeiJIrsr7PAxAA">
+                  <tags>org.eclipse.e4.secondaryDataStack</tags>
+                  <tags>Minimized</tags>
+                  <tags>MinimizedByZoom</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6ozEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.views.ProblemView" toBeRendered="false" ref="_0kSizDEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6pDEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.JavadocView" toBeRendered="false" ref="_0kSizzEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6pTEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.SourceView" toBeRendered="false" ref="_0kSi0jEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6pjEJEeiJIrsr7PAxAA" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_0kSi1TEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6pzEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.console.ConsoleView" ref="_0kSi1jEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6qDEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_0kSi4TEJEeiJIrsr7PAxAA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_0kR6qTEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_0kSi4jEJEeiJIrsr7PAxAA"/>
+>>>>>>> parent of ce323fe... Connect4Game
                 </children>
               </children>
               <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUSjfZEeiP9p_dnnnNGw" toBeRendered="false" containerData="2500">
@@ -156,10 +198,17 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_2AdUVjfZEeiP9p_dnnnNGw" elementId="org.eclipse.debug.ui.ExpressionView" toBeRendered="false" ref="_2AeiqTfZEeiP9p_dnnnNGw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_2AdUVzfZEeiP9p_dnnnNGw" elementId="org.eclipse.debug.ui.RegisterView" toBeRendered="false" ref="_2AeiqjfZEeiP9p_dnnnNGw"/>
             </children>
+<<<<<<< HEAD
             <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUWDfZEeiP9p_dnnnNGw" containerData="7379" selectedElement="_2AdUWTfZEeiP9p_dnnnNGw" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUWTfZEeiP9p_dnnnNGw" containerData="5000" selectedElement="_2AdUWjfZEeiP9p_dnnnNGw" horizontal="true">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_2AdUWjfZEeiP9p_dnnnNGw" containerData="2116" selectedElement="_2AdUYDfZEeiP9p_dnnnNGw">
                   <children xsi:type="basic:PartStack" xmi:id="_2AdUWzfZEeiP9p_dnnnNGw" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_2AdUXDfZEeiP9p_dnnnNGw">
+=======
+            <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6uDEJEeiJIrsr7PAxAA" containerData="7379" selectedElement="_0kR6uTEJEeiJIrsr7PAxAA" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6uTEJEeiJIrsr7PAxAA" containerData="5000" selectedElement="_0kR6ujEJEeiJIrsr7PAxAA" horizontal="true">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_0kR6ujEJEeiJIrsr7PAxAA" containerData="2508" selectedElement="_0kR6uzEJEeiJIrsr7PAxAA">
+                  <children xsi:type="basic:PartStack" xmi:id="_0kR6uzEJEeiJIrsr7PAxAA" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_0kR6vjEJEeiJIrsr7PAxAA">
+>>>>>>> parent of ce323fe... Connect4Game
                     <tags>org.eclipse.e4.primaryNavigationStack</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_2AdUXDfZEeiP9p_dnnnNGw" elementId="org.eclipse.debug.ui.DebugView" ref="_2AeiiDfZEeiP9p_dnnnNGw"/>
                     <children xsi:type="advanced:Placeholder" xmi:id="_2AdUXTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_2AeiVzfZEeiP9p_dnnnNGw"/>
@@ -181,7 +230,11 @@
                     <children xsi:type="advanced:Placeholder" xmi:id="_2AdUaDfZEeiP9p_dnnnNGw" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_2AeisjfZEeiP9p_dnnnNGw"/>
                   </children>
                 </children>
+<<<<<<< HEAD
                 <children xsi:type="advanced:Placeholder" xmi:id="_2AdUaTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.editorss" containerData="7884" ref="_2Ad8VjfZEeiP9p_dnnnNGw"/>
+=======
+                <children xsi:type="advanced:Placeholder" xmi:id="_0kR6yTEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.editorss" containerData="7492" ref="_0kSiOTEJEeiJIrsr7PAxAA"/>
+>>>>>>> parent of ce323fe... Connect4Game
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_2AdUajfZEeiP9p_dnnnNGw" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" toBeRendered="false" containerData="2500">
                 <tags>org.eclipse.e4.secondaryNavigationStack</tags>
@@ -223,6 +276,7 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="advanced:Area" xmi:id="_2Ad8VjfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.editorss" selectedElement="_2Ad8VzfZEeiP9p_dnnnNGw">
       <children xsi:type="basic:PartStack" xmi:id="_2Ad8VzfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_2Ad8ajfZEeiP9p_dnnnNGw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
@@ -233,6 +287,19 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_2Ad8WTfZEeiP9p_dnnnNGw" elementId="#CompilationUnitEditorContext">
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_0kSiOTEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.editorss" selectedElement="_0kSiOjEJEeiJIrsr7PAxAA">
+      <children xsi:type="basic:PartStack" xmi:id="_0kSiOjEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_0kSiXDEJEeiJIrsr7PAxAA">
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_0kSiSDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Connect4Game.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Game.java&quot; partName=&quot;Connect4Game.java&quot; title=&quot;Connect4Game.java&quot; tooltip=&quot;Connect4Player/src/Connect4Game.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/Connect4Game.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;32&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_0kSiSTEJEeiJIrsr7PAxAA" elementId="#CompilationUnitEditorContext">
+>>>>>>> parent of ce323fe... Connect4Game
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
             <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
@@ -265,8 +332,13 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_2Ad8XzfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Connect4Grid.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid.java&quot; partName=&quot;Connect4Grid.java&quot; title=&quot;Connect4Grid.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/Connect4Grid.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;88&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_0kSiTDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Connect4Grid.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid.java&quot; partName=&quot;Connect4Grid.java&quot; title=&quot;Connect4Grid.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/Connect4Grid.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;309&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> parent of ce323fe... Connect4Game
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -287,8 +359,13 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_2Ad8YzfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Connect4Grid2DArray.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid2DArray.java&quot; partName=&quot;Connect4Grid2DArray.java&quot; title=&quot;Connect4Grid2DArray.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid2DArray.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/Connect4Grid2DArray.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4418&quot; selectionTopPixel=&quot;2620&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_0kSiUDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Connect4Grid2DArray.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Connect4Grid2DArray.java&quot; partName=&quot;Connect4Grid2DArray.java&quot; title=&quot;Connect4Grid2DArray.java&quot; tooltip=&quot;Connect4Player/src/Connect4Grid2DArray.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/Connect4Grid2DArray.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;426&quot; selectionTopPixel=&quot;1048&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> parent of ce323fe... Connect4Game
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -308,7 +385,41 @@
             <tags>menuContribution:popup</tags>
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
+<<<<<<< HEAD
           <menus xsi:type="menu:PopupMenu" xmi:id="_2Ad8ZzfZEeiP9p_dnnnNGw" elementId="#CompilationUnitEditorContext">
+=======
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0kSiWDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ConnectPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ConnectPlayer.java&quot; partName=&quot;ConnectPlayer.java&quot; title=&quot;ConnectPlayer.java&quot; tooltip=&quot;Connect4Player/src/ConnectPlayer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/ConnectPlayer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;59&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_0kSiWTEJEeiJIrsr7PAxAA" elementId="#CompilationUnitEditorContext">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#CompilationUnitEditorContext</tags>
+            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
+            <tags>popup:#AbstractTextEditorContext</tags>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_0kSiWjEJEeiJIrsr7PAxAA" elementId="#CompilationUnitRulerContext">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#CompilationUnitRulerContext</tags>
+            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
+            <tags>popup:#AbstractTextEditorRulerContext</tags>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_0kSiWzEJEeiJIrsr7PAxAA" elementId="#OverviewRulerContext">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#OverviewRulerContext</tags>
+          </menus>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0kSiXDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C4HumanPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4HumanPlayer.java&quot; partName=&quot;C4HumanPlayer.java&quot; title=&quot;C4HumanPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4HumanPlayer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/C4HumanPlayer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;489&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_0kSiXTEJEeiJIrsr7PAxAA" elementId="#CompilationUnitEditorContext">
+>>>>>>> parent of ce323fe... Connect4Game
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
             <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
@@ -325,8 +436,13 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_2Ad8ajfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C4HumanPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4HumanPlayer.java&quot; partName=&quot;C4HumanPlayer.java&quot; title=&quot;C4HumanPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4HumanPlayer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/C4HumanPlayer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;319&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_0kSiYDEJEeiJIrsr7PAxAA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C4AiPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4AiPlayer.java&quot; partName=&quot;C4AiPlayer.java&quot; title=&quot;C4AiPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4AiPlayer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/C4AiPlayer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;34&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> parent of ce323fe... Connect4Game
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -363,6 +479,7 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_2Ad8cTfZEeiP9p_dnnnNGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C4AiPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;C4AiPlayer.java&quot; partName=&quot;C4AiPlayer.java&quot; title=&quot;C4AiPlayer.java&quot; tooltip=&quot;Connect4Player/src/C4AiPlayer.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Connect4Player/src/C4AiPlayer.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;484&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -423,6 +540,8 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+=======
+>>>>>>> parent of ce323fe... Connect4Game
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_2Ad8fDfZEeiP9p_dnnnNGw" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
@@ -536,7 +655,11 @@
         <tags>menuContribution:popup</tags>
         <tags>popup:org.eclipse.debug.ui.ProcessConsoleType.#ContextMenu</tags>
       </menus>
+<<<<<<< HEAD
       <toolbar xmi:id="_2AeiaTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.console.ConsoleView"/>
+=======
+      <toolbar xmi:id="_0kSi2jEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.console.ConsoleView"/>
+>>>>>>> parent of ce323fe... Connect4Game
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_2AeieDfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -742,6 +865,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2Aei8DfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:DirectToolItem" xmi:id="_2Aei8TfZEeiP9p_dnnnNGw" elementId="new.group">
           <tags>Opaque</tags>
         </children>
@@ -776,6 +900,9 @@
         <children xsi:type="menu:DirectToolItem" xmi:id="_2Aei_DfZEeiP9p_dnnnNGw" elementId="additions">
           <tags>Opaque</tags>
         </children>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0YOT8DGrEeiGzNTxd2oOHw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0kVlDTEJEeiJIrsr7PAxAA"/>
+>>>>>>> parent of ce323fe... Connect4Game
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2Aei_TfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
@@ -822,7 +949,11 @@
           <tags>Opaque</tags>
         </children>
       </children>
+<<<<<<< HEAD
       <children xsi:type="menu:ToolBar" xmi:id="_2AejDDfZEeiP9p_dnnnNGw" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet" visible="false">
+=======
+      <children xsi:type="menu:ToolBar" xmi:id="_0kSjYTEJEeiJIrsr7PAxAA" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
+>>>>>>> parent of ce323fe... Connect4Game
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2AejDTfZEeiP9p_dnnnNGw" elementId="org.eclipse.search.searchActionSet">
@@ -846,6 +977,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2AejFDfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:DirectToolItem" xmi:id="_2AejFTfZEeiP9p_dnnnNGw" elementId="history.group">
           <tags>Opaque</tags>
         </children>
@@ -871,6 +1003,9 @@
         <children xsi:type="menu:DirectToolItem" xmi:id="_2AejHTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
           <tags>Opaque</tags>
         </children>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0YSlYDGrEeiGzNTxd2oOHw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0kVAVzEJEeiJIrsr7PAxAA"/>
+>>>>>>> parent of ce323fe... Connect4Game
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2AejHjfZEeiP9p_dnnnNGw" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
         <tags>Draggable</tags>
@@ -913,12 +1048,21 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
+<<<<<<< HEAD
     <trimBars xmi:id="_2AejPTfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.trim.vertical1" toBeRendered="false" side="Left">
       <children xsi:type="menu:ToolControl" xmi:id="_2AejPjfZEeiP9p_dnnnNGw" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_2AejPzfZEeiP9p_dnnnNGw" elementId="left(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+=======
+    <trimBars xmi:id="_0kSjljEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.trim.vertical1" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_0kSjlzEJEeiJIrsr7PAxAA" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_0kSjmDEJEeiJIrsr7PAxAA" elementId="left(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+>>>>>>> parent of ce323fe... Connect4Game
         <persistedState key="XSize" value="600"/>
         <persistedState key="YSize" value="610"/>
         <tags>TrimStack</tags>
@@ -932,7 +1076,11 @@
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
+<<<<<<< HEAD
       <children xsi:type="menu:ToolControl" xmi:id="_2AejQjfZEeiP9p_dnnnNGw" elementId="bottom(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+=======
+      <children xsi:type="menu:ToolControl" xmi:id="_0kSjmzEJEeiJIrsr7PAxAA" elementId="bottom(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+>>>>>>> parent of ce323fe... Connect4Game
         <persistedState key="XSize" value="1223"/>
         <persistedState key="YSize" value="390"/>
         <tags>TrimStack</tags>

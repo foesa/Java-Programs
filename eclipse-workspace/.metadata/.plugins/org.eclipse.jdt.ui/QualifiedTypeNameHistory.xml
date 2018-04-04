@@ -15,8 +15,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="ConnectPlayer"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="C4HumanPlayer"/>
-<fullyQualifiedTypeName name="C4AiPlayer"/>
 <fullyQualifiedTypeName name="Connect4Grid2DArray"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
